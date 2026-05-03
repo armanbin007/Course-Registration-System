@@ -7,12 +7,12 @@
  STEP 1 — Set up the Oracle database (run ONCE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Open Command Prompt and run:
+Open SQL Plus and run:
 
-    sqlplus / as sysdba @oracle_setup.sql
+    @oracle_setup.sql
 
 This creates all 5 tables + sequences + sample data.
-Demo student: ID = 1  |  Password = 1234
+Demo student: ID = 41240202189  |  Password = 12345
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -42,13 +42,13 @@ Open .env and set your connection details.
 If you use "sqlplus / as sysdba" (most common for local Oracle XE):
     DB_USER=
     DB_PASSWORD=
-    DB_DSN=localhost:1521/XE
+    DB_DSN=localhost:1521/orcl
     DB_MODE=sysdba
 
-If you have a normal Oracle user (e.g. scott/tiger):
-    DB_USER=scott
-    DB_PASSWORD=tiger
-    DB_DSN=localhost:1521/XE
+If you have a normal Oracle user (e.g. system/oracle123):
+    DB_USER=system
+    DB_PASSWORD=oracle123
+    DB_DSN=localhost:1521/orcl
     DB_MODE=default
 
 
@@ -80,8 +80,8 @@ course_reg_python/
  Demo credentials
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Student login:  ID = 1   |  Password = 1234
+Student login:  ID = 41240202189   |  Password = 12345
 Admin panel:    PIN = admin123
 
-"Data Structures" is pre-marked as completed for student 1
+"Data Structures" is pre-marked as completed for student 41240202189
 so you can immediately demo the course-blocking feature.
