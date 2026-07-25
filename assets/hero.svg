@@ -1,1 +1,36 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1a2b"/>
+      <stop offset="100%" stop-color="#132a44"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
 
+  <!-- graduation cap icon -->
+  <g transform="translate(60,90)">
+    <polygon points="70,0 140,28 70,56 0,28" fill="#f8fafc"/>
+    <polygon points="70,0 140,28 70,56 0,28" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="60" y="52" width="20" height="45" fill="#f8fafc"/>
+    <rect x="60" y="52" width="20" height="45" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="132" cy="34" r="4" fill="#38bdf8"/>
+    <line x1="132" y1="34" x2="132" y2="70" stroke="#38bdf8" stroke-width="2"/>
+  </g>
+
+  <text x="250" y="105" font-family="Verdana, Geneva, sans-serif" font-size="42" font-weight="bold" fill="#f8fafc">Course Registration System</text>
+  <text x="250" y="145" font-family="Verdana, Geneva, sans-serif" font-size="20" fill="#94a3b8">Python + Oracle 21c console app for student course enrollment</text>
+
+  <g transform="translate(250,175)">
+    <rect x="0" y="0" width="80" height="30" rx="6" fill="#1e40af"/>
+    <text x="40" y="20" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#eff6ff" text-anchor="middle">Python</text>
+
+    <rect x="95" y="0" width="100" height="30" rx="6" fill="#b91c1c"/>
+    <text x="145" y="20" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#eff6ff" text-anchor="middle">Oracle 21c</text>
+
+    <rect x="210" y="0" width="90" height="30" rx="6" fill="#0d9488"/>
+    <text x="255" y="20" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#eff6ff" text-anchor="middle">5 Tables</text>
+
+    <rect x="315" y="0" width="150" height="30" rx="6" fill="#7c3aed"/>
+    <text x="390" y="20" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#eff6ff" text-anchor="middle">Modular Architecture</text>
+  </g>
+</svg>
